@@ -263,6 +263,11 @@
   .child-div{
     margin-left: 0px !important;
   }
+  .address-div{
+    position: relative;
+    margin: 10px 0px 10px 0px;
+
+  }
   }
   /* Tablets and small laptops */
 @media screen and (min-width: 600px) and (max-width: 1324px) {
