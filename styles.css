@@ -266,8 +266,22 @@
   .address-div{
     position: relative;
     margin: 10px 0px 10px 0px;
+ }
+ .service-div1, .service-div{
+   display: flex;
+   flex-direction: column;
+   margin-right: auto !important;
+    margin-left: auto !important;
+    gap: 40px !important;
+ }
+ .item-2,
+.item-3,
+.item-4,
+.item-1{
+  width: auto !important;
+}
 
-  }
+
   }
   /* Tablets and small laptops */
 @media screen and (min-width: 600px) and (max-width: 1324px) {
@@ -825,17 +839,66 @@ box-shadow: 0 30px 50px 0 rgba(0,15.999999999999979,71,.08627450980392157);
 .More-sec {
   margin: 100px 0px 100px 0px;
 }
-.service-div{
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: space-around;
+.service-div1,.service-div{
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  gap: 20px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
 }
-.service-div1{
-  display: flex;
-  flex-wrap:wrap;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid black;
+
+
+.box-body p{
+  color: #000;
+}
+.item-2,
+.item-3,
+.item-4,
+.item-1{
+  width:15%;
+  height: auto;
+  padding: 36.5px 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e9ebef;
+    border-radius: 0 0 0 0;
+}
+.elementskit-info-box-icon{
+  position: relative;
+  z-index: 2;
+}
+.item-2:hover{
+  box-shadow: 0 20px 30px 0 rgba(0,15.999999999999979,71,.12);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #02010100;
+}
+.item-3:hover{
+  box-shadow: 0 20px 30px 0 rgba(0,15.999999999999979,71,.12);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #02010100;
+}
+.item-4:hover{
+  box-shadow: 0 20px 30px 0 rgba(0,15.999999999999979,71,.12);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #02010100;
+}
+.item-1:hover{
+  box-shadow: 0 20px 30px 0 rgba(0,15.999999999999979,71,.12);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #02010100;
+}
+.elementskit-info-box-title{
+  padding: 0;
+    color: #172760;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
 }
