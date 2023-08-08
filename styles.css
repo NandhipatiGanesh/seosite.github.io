@@ -280,8 +280,28 @@
 .item-1{
   width: auto !important;
 }
-
-
+.ekit-heading--title{
+  font-size: 38px;
+}
+.monthly-plan-content.active,
+.yearly-plan-content.active{
+  display: flex;
+  flex-direction: column;
+}
+.monthlyplan-content-item-1,
+.monthlyplan-content-item-2,
+.monthlyplan-content-item-3,
+.monthlyplan-content-item-4,
+.yearlyplan-content-item-1,
+.yearlyplan-content-item-2,
+.yearlyplan-content-item-3,
+.yearlyplan-content-item-4{  
+  padding: 36px 40px 20px;
+  box-shadow: 0 40px 70px 0 rgba(0,15.999999999999979,71,.1);
+      border-style: solid;
+      border-width: 0 1px 0 0;
+      border-color: #eaecf5;
+  }
   }
   /* Tablets and small laptops */
 @media screen and (min-width: 600px) and (max-width: 1324px) {
@@ -902,3 +922,126 @@ box-shadow: 0 30px 50px 0 rgba(0,15.999999999999979,71,.08627450980392157);
     font-weight: 700;
     line-height: 24px;
 }
+.ekit-heading{
+  text-align: center;
+} 
+ .ekit-heading--title{
+  color: #172760;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0px  0px 20px 0px;
+}
+.plans-section{
+  margin: 100px 0px 100px 0px;
+}
+.plans-p{
+  color: #484a51;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.plans-tabs{
+  display: flex;
+  justify-content: center;
+  margin:50px 0px 0px 0px;
+}
+.plans-li{
+  margin-bottom: 0;
+    float: none;
+    display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font-size: 14px;
+    font-weight: 500;
+}
+.plans-ul{
+  background-color: #eef0f8;
+  padding: 5px;
+  margin: 0;
+  border-radius: 25px 25px 25px 25px;
+} 
+
+  .monthly-plan-content,
+  .yearly-plan-content {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  .monthly-plan-content.active,
+  .yearly-plan-content.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+  }
+  .plans-li.active {
+    color: #3d68ff;
+background-color: #fff;
+box-shadow: 0 4px 8px 0 rgba(0,15.999999999999979,71,.1);
+border-radius: 20px 20px 20px 20px;
+}
+a.elementskit-pricing-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #3d68ff;
+  background-color: #02010100;
+  padding: 10px 63px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3d68ff;
+  border-radius: 6px 6px 6px 6px;
+  text-decoration: none;
+}
+.plan-con-li li::before {
+  content: "\2022"; /* Unicode character for bullet point symbol */
+  color: red; /* Change the color of the bullet point */
+  position: absolute;
+  left: -20px;
+} 
+.plan-con-li li{
+  color: #484a51;
+  font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.elementskit-pricing-title{
+  color: #172760;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+}
+.currency{
+  font-size: 30px;
+    font-weight: 700;
+    vertical-align: baseline
+}
+.plan-price-buy span{
+  font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #172760;
+    margin-bottom: 15px;
+}
+.plan-price-buy{
+  margin: 50px 0px 10px 0px;
+}
+.buy-n{
+  margin: 30px 0px 10px 0px;
+}
+.monthlyplan-content-item-1,
+.monthlyplan-content-item-2,
+.monthlyplan-content-item-3,
+.monthlyplan-content-item-4,
+.yearlyplan-content-item-1,
+.yearlyplan-content-item-2,
+.yearlyplan-content-item-3,
+.yearlyplan-content-item-4{  
+  padding: 36px 40px 20px;
+  box-shadow: 0 40px 70px 0 rgba(0,15.999999999999979,71,.1);
+      border-style: solid;
+      border-width: 0 1px 0 0;
+      border-color: #eaecf5;
+  }
