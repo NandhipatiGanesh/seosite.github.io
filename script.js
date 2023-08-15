@@ -29,14 +29,16 @@ function openTab(tabName) {
   });
 
   //swiper content
-  $(document).ready(function(){
-    $("#testimonial-slider").owlCarousel({
-        items:2,
-        itemsDesktop:[1000,2],
-        itemsDesktopSmall:[980,1],
-        itemsTablet:[768,1],
-        pagination:true,
-       autoPlay:true
+  jQuery(document).ready(function() {
+    jQuery("#testimonial-slider").owlCarousel({
+      items: 1,
+      itemsDesktop: [1000, 2],
+      itemsDesktopSmall: [980, 1],
+      itemsTablet: [768, 1],
+      itemsMobile: [600, 1],
+      pagination: true,
+      autoPlay: true,
+      loop: true
     });
-});
+  });
   

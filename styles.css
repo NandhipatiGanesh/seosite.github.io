@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+  
+  
   body {
     font-family: 'Josefin Sans', sans-serif;
         
@@ -13,6 +16,7 @@
   
   h1, h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
+    
   }
   /* Mobile devices portrait */
   @media screen and (max-width: 600px) {
@@ -301,6 +305,93 @@
       border-style: solid;
       border-width: 0 1px 0 0;
       border-color: #eaecf5;
+  }
+  .testimonial-section{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    background-color:#eef0f8;
+}
+.testi-div{
+  padding: 80px 0px 20px 0px;
+  text-align: center;
+}
+  .container3{
+    align-content: center;
+      align-items: center;
+    width: auto;
+    height: auto;
+    position: relative;
+  
+    background-color: fff;
+    box-shadow: 0 40px 50px 0 rgb(255 255 255 / 14%);
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    padding: 0;
+    border-radius: 10px;
+    
+  }
+  .owl-carousel{
+    width: 60%;
+    }
+  .owl-item img {
+    display: block;
+    width: 60%;
+    float: left;
+    border-radius: 20px;
+  
+    margin-right: 35px;
+    margin-top: 15px;
+  }
+  
+  
+  .testimonial-name {
+    font-weight: 600;
+  }
+  .testimonial-content.quote {
+    padding: 17px 55px;
+  }
+  .et_right_sidebar #main-content .container:before{
+    display: none;
+  }
+  #main-content .container {
+    padding-top: 10px;
+  }
+  .image-div{
+    padding: 30px 0px 30px 0px;
+  }
+  .testimonial-item{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border-radius: 10px;
+    margin: 10px;
+     background-color: #fff;
+  }
+  .name .name-para1{
+    color: #172760;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 0;
+  }
+  .name-para2{
+    color: black;
+    padding-bottom: 50px;
+  }
+  .name .name-para3{
+    color: black;
+    font-size: 24px;
+      font-weight: 400;
+      line-height: 38px;
+      padding-bottom: 40px;
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+  .owl-theme .owl-controls .owl-page span{
+     color:blue;
+     background-color: #fff;
   }
   }
   /* Tablets and small laptops */
@@ -1048,48 +1139,50 @@ a.elementskit-pricing-btn {
     height: 100%;
     width: 100%;
     margin-top: 100px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     background-color:#eef0f8;
 }
 .testi-div{
-  padding: 80px 0px 80px 0px;
+  padding: 80px 0px 20px 0px;
   text-align: center;
 }
 .test-h2{
   color: #172760;
     margin: 0 0 12px;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 60px;
 }
-.testies-div{
-  width: 980px;
+.container3{
+  align-content: center;
+    align-items: center;
+  width: auto;
   height: auto;
   position: relative;
-  background-image:url(https://wpmet.com/plugin/elementskit/wp-content/uploads/2022/08/testimonial-shape-01.png) ;
-}
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: fff;
+  box-shadow: 0 40px 50px 0 rgb(255 255 255 / 14%);
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+  padding: 0;
+  border-radius: 10px;
   
-.owl-carousel .owl-item img {
+}
+.owl-carousel{
+  width: 60%;
+  }
+.owl-item img {
   display: block;
-  width: 17%;
+  width: 60%;
   float: left;
-  border: 5px solid #fff;
   border-radius: 20px;
-  margin-left: 54px;
+
   margin-right: 35px;
   margin-top: 15px;
 }
-.testimonial-item.equal-height.style-6 {
-  background-color: #eee;
-  border-radius: 10px;
-  margin: 10px;
-}
-.cell-right {
-  text-align: center;
-  margin-right: 80px;
-  padding-top: 35px;
-  padding-bottom: 20px;
-}
+
+
 .testimonial-name {
   font-weight: 600;
 }
@@ -1102,7 +1195,39 @@ a.elementskit-pricing-btn {
 #main-content .container {
   padding-top: 10px;
 }
-i.fa.fa-quote-left {
-  padding: 0px 10px;
-  color: #999;
+.image-div{
+  padding: 30px 0px 30px 0px;
+}
+.testimonial-item{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+border-radius: 10px;
+  margin: 10px;
+   background-color: #fff;
+}
+.name .name-para1{
+  color: #172760;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.name-para2{
+  color: black;
+  padding-bottom: 50px;
+}
+.name .name-para3{
+  color: black;
+  font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.owl-theme .owl-controls .owl-page span{
+   color:blue;
+   background-color: #fff;
 }
