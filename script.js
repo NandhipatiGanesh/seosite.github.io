@@ -35,7 +35,7 @@ function openTab(tabName) {
       itemsDesktop: [1000, 2],
       itemsDesktopSmall: [980, 1],
       itemsTablet: [768, 1],
-      itemsMobile: [600, 1],
+      itemsMobile: [500, 1],
       pagination: true,
       autoPlay: true,
       loop: true
