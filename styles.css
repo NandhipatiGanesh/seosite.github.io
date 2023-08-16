@@ -317,82 +317,9 @@
   padding: 80px 0px 20px 0px;
   text-align: center;
 }
-  .container3{
-    align-content: center;
-      align-items: center;
-    width: auto;
-    height: auto;
-    position: relative;
-  
-    background-color: fff;
-    box-shadow: 0 40px 50px 0 rgb(255 255 255 / 14%);
-    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
-    padding: 0;
-    border-radius: 10px;
-    
-  }
-  .owl-carousel{
-    width: 60%;
-    }
-  .owl-item img {
-    display: block;
-    width: 60%;
-    float: left;
-    border-radius: 20px;
-  
-    margin-right: 35px;
-    margin-top: 15px;
-  }
-  
-  
-  .testimonial-name {
-    font-weight: 600;
-  }
-  .testimonial-content.quote {
-    padding: 17px 55px;
-  }
-  .et_right_sidebar #main-content .container:before{
-    display: none;
-  }
-  #main-content .container {
-    padding-top: 10px;
-  }
-  .image-div{
-    padding: 30px 0px 30px 0px;
-  }
-  .testimonial-item{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  border-radius: 10px;
-    margin: 10px;
-     background-color: #fff;
-  }
-  .name .name-para1{
-    color: #172760;
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 24px;
-      margin-bottom: 0;
-  }
-  .name-para2{
-    color: black;
-    padding-bottom: 50px;
-  }
-  .name .name-para3{
-    color: black;
-    font-size: 24px;
-      font-weight: 400;
-      line-height: 38px;
-      padding-bottom: 40px;
-      margin-left: 0px;
-      margin-right: 0px;
-  }
-  .owl-theme .owl-controls .owl-page span{
-     color:blue;
-     background-color: #fff;
-  }
+.container3{
+  display: none;
+}
   }
   /* Tablets and small laptops */
 @media screen and (min-width: 600px) and (max-width: 1324px) {
@@ -1226,4 +1153,23 @@ border-radius: 10px;
     padding-bottom: 40px;
     margin-left: 0px;
     margin-right: 0px;
+}
+.lp-heading{
+  display: block;
+  text-align: center;
+  margin:30px 0px 30px 0px;
+  padding: 90px 0px 90px 0px;
+}
+.lp-heading h2{
+  color: #172760;
+    margin: 0 0 14px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.lp-heading p{
+  color: #484a51;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
 }
