@@ -1173,3 +1173,16 @@ border-radius: 10px;
   font-weight: 400;
   line-height: 30px;
 }
+.lp-posts-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 1050px;
+  margin: 0px auto 0px auto;
+}
+.latest-posts-items-1{
+  background-color: #ef393900;
+    box-shadow: 0 40px 50px 0 rgba(0,15.999999999999979,71,.1);
+    border-radius: 6px 6px 6px 6px;
+}
