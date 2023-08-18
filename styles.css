@@ -396,6 +396,54 @@
   align-items: center !important;
   margin-top: 10px;
 }
+.call-to-action{
+  block-size: 350px !important;
+  background-image: url(https://wpmet.com/plugin/elementskit/wp-content/uploads/2022/07/call-taction-o.png) !important;
+  background-color: #1b47e1 !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  opacity: 1 !important;
+  mix-blend-mode: overlay !important;
+  transition: .3s,border-radius .3s,opacity .3s !important;
+  margin: 10px 0px 0px 0px ;
+ }
+ .call-to-action-div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+     width: 100%;
+     margin-left: auto !important;
+     margin-right: auto !important;
+     padding-top: 50px;
+ }
+ .seo-cify{
+   color: #ffffff90 !important;
+   font-family: 'Josefin Sans', sans-serif !important;
+     font-size: 16px !important;
+     font-weight: 500 !important;
+     line-height: 23px !important;
+ }
+ .call-h2{
+   color: #fff !important;
+   font-size: 24px !important;
+   font-weight: 700 !important;
+   line-height: 50px !important;
+ }
+ .call-para{
+   color: #fff;
+     font-size: 20px !important;
+     font-weight: 400 !important;
+     line-height: 30px !important;
+ }
+ .call-div-right{
+   margin-top: 100px;
+   width: 100% !important;
+ }
+ .call-div-left{
+   width: 100% !important;
+ }
+ 
   }
   /* Tablets and small laptops */
 @media screen and (min-width: 600px) and (max-width: 1324px) {
@@ -945,10 +993,11 @@ box-shadow: 0 30px 50px 0 rgba(0,15.999999999999979,71,.08627450980392157);
   color: #000;
 }
 .more-sec-div{
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .More-sec {
   margin: 100px 0px 100px 0px;
@@ -1015,6 +1064,9 @@ box-shadow: 0 30px 50px 0 rgba(0,15.999999999999979,71,.08627450980392157);
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
+}
+.low-line{
+  position: relative;
 }
 .ekit-heading{
   text-align: center;
@@ -1333,4 +1385,51 @@ border-radius: 10px;
   text-align: center;
   color: #000;
   margin-top: 30px;
+}
+.call-to-action{
+ block-size: 350px;
+ background-image: url(https://wpmet.com/plugin/elementskit/wp-content/uploads/2022/07/call-taction-o.png);
+ background-color: #1b47e1;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ opacity: 1;
+ mix-blend-mode: overlay;
+ transition: .3s,border-radius .3s,opacity .3s;
+ margin: 10px 0px 0px 0px;
+}
+.call-to-action-div{
+display: flex;
+align-items: center;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.seo-cify{
+  color: #ffffff90;
+  font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.call-h2{
+  color: #fff;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.call-para{
+  color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.call-div-right{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 50%;
+}
+.call-div-left{
+  width: 50%;
 }
