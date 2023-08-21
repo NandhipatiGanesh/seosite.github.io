@@ -28,7 +28,7 @@
         }
       .logo{
         position: relative;
-        width: 100px;;
+        width: 100px;
       }
     .middle-main-menu ul {
         display: none !important;
@@ -476,7 +476,7 @@
         }
       .logo{
         position: relative;
-        width: 100px;;
+        width: 100px;
       }
     .middle-main-menu ul {
         display: none !important;
@@ -1476,4 +1476,23 @@ align-items: center;
   background-color: #00000000;
   border-color: #f24b57;
   border-radius: 6px 6px 6px 6px;
+}
+.footer-section{
+  position: relative;
+  background-color: #0A1950;
+  padding: 83px 0px 0px 0px;
+    overflow: visible;
+    block-size: 500px;
+}
+.footer-class-div{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-logo-img{
+
+    position: relative;
+    width: 140px;
+  
 }
